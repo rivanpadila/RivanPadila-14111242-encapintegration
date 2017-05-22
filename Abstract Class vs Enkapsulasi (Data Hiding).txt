@@ -1,0 +1,22 @@
+Class Abstract
+
+a. Class abstrak tidak dapat dibuatkan instan atau objeknya menggunakan keyword new
+b. Sebuah class dapat dideklarasikan sebagai class abstrak walaupun tidak memiliki method abstrak
+c. Variabel dengan tipe class abstrak tetap bisa diciptakan, tetapi harus refer ke subclass dari class abtrak tersebut yang tentunya tidak abstrak
+d.
+e. Persoalan abstraksi data, yaitu:
+a. Struktur data seharusnya menjadi satu bagian internal yang tersembunyi
+b. Pemakai modulu tidak perlu mengetahui struktur data yang digunakan untuk menginplementasikan suatu modul
+c. Pemakai modul hanya diberikan gambaran perilaku, bukan struktur internal dari modul
+d. Fokus pada perilaku objek, membentuk basis pemrograman berorientasi objek
+e. Abstraksi data memungkinkan kita memperluas bahsa pemrograman dengan tipe data baru
+f. Abstraksi data memungkinkan kita mengabstraksikan rincian-rincian cara data diimplementasikan, menjadi bagaimana objek-objek berprilaku
+g. Abstraksi data berisi sekumpulan objek
+h. Abstraksi data pada prinsipnya merupakan dasar pemrograman berorientas objek (OOP)
+
+
+Enkapsulasi
+
+Penyembunyian informasi yang tidak perlu diketahui objek lain agar variabel tidak langsung diakses dan diberi sembarang nilai dari luar class, 
+ini memberikan kemudahan kepada kita untuk me-monitor nilai dari variabel yang kita miliki. 
+Caranya adalah dengan membuat suatu interface berupa method untuk menginisialisasi atau merubah nilai dari suatu atribut tersebut.
